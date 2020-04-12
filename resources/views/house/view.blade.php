@@ -299,7 +299,7 @@
                                  <i class="fa fa-sticky-note-o" aria-hidden="true"></i> Note
                             </h2>
                             @endif
-                            <h2 class="title"> Fabulous Room in Upscale Block </h2>
+                            <h2 class="title">  {{$data->title}} </h2>
                             <h5 class="category">in {{$data->address}}</h5><h5 class="category">{{$data->city}}, {{$data->postcode}}</h5>
                             <h2 class="main-price" style="display:inline-block"> {{$data->rent}} </h2>
                             <h5 style="display:inline-block" >  NOK/month </h5>
