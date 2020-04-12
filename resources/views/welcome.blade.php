@@ -314,8 +314,8 @@
                 @endif
                 <!--Search Card Ends-->
                 <!--Search Results Null-->
-                @if($data_book->count() == '0')
-                <p class="text-center" style="align:center; margin-left:400px; font-size: x-large; font-weight:800">Sorry! No results are found.</p>
+                @if($data_book->count() == '0' and $d != null )
+                  <p class="text-center" style="align:center; margin-left:400px; font-size: x-large; font-weight:800">Sorry! No results are found.</p>
                 @endif
                 <!--Search Results Null Ends-->
               </div>
