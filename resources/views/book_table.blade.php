@@ -145,7 +145,7 @@
                                 </a>
                               </div>
                             </div>
-                            <div class="card-body " style="margin-top:-30px"> 
+                            <div class="card-body " style="margin-top:-20px"> 
                               <h5 class="card-category card-category-social text-rose text-center">
                                 <i class="fa fa-book" aria-hidden="true"></i> Book
                               </h5>
@@ -153,22 +153,17 @@
                                 <a href="#pablo">{{$row_book->name}}</a>
                               </h4>
                               <h5 class="text-center"  >
-                                <small style="font-size:12px">by</small> <strong>{{$row_book->author}}</strong>
+                                <small style="font-size:12px">written by</small> <strong>{{$row_book->author}}</strong>
                               </h5>
-                              
-                              <div class="card-description" style="margin-top:-20px; text-align: left;">
-                                <p style="text-align:left;line-height: 1em;margin-top:15px">
-                                  <div class="row">
-                                    <div class="col-md-4">Course Name:</div>
-                                    <div class="col-md-6"> {{$row_book->course_name }}</div>
-                                  </div>
-                                </p>
-                                
-                               <p style="margin-top:;line-height: 1em"> Course ID: {{$row_book->course_id}}</p>
-                                
-                               <p style="margin-top:;line-height: 1em"> ISBN: {{$row_book->isbn}}</p>
+                              <br>
+                              <p class="card-description" style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; ">
+                                Course Name: {{$row_book->course_name }}
+                                <br>
+                                Course ID: {{$row_book->course_id}}
+                                <br>
+                                ISBN: {{$row_book->isbn}}
                                
-                                </div>
+                              </p>
                               
                               <div class="footer" style="margin-top:-10px">
                                 <div class="rating">
