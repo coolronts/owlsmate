@@ -157,7 +157,12 @@
                               </h5>
                               
                               <div class="card-description" style="margin-top:-20px; text-align: left;">
-                                <p style="text-align:left;line-height: 1em;margin-top:15px"><div class="col-md-4">Course Name:</div><div class="col-md-6"> {{$row_book->course_name }}</div></p>
+                                <p style="text-align:left;line-height: 1em;margin-top:15px">
+                                  <div class="row">
+                                    <div class="col-md-4">Course Name:</div>
+                                    <div class="col-md-6"> {{$row_book->course_name }}</div>
+                                  </div>
+                                </p>
                                 
                                <p style="margin-top:;line-height: 1em"> Course ID: {{$row_book->course_id}}</p>
                                 
