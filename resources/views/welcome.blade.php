@@ -394,7 +394,7 @@
                                   <small>written by</small> <strong>{{$row_book->author}}</strong>
                                 </h5>
                                 <br>
-                                <p class="card-description" style="margin-top:-20px">
+                                <p class="card-description" style="margin-top:-50px">
                                   Course Name: <strong>{{$row_book->course_name }}</strong>
                                   <br>
                                   Course ID: <strong>{{$row_book->course_id}}</strong>
