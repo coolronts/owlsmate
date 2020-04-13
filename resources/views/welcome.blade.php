@@ -383,7 +383,7 @@
                                   </a>
                                 </div>
                               </div>
-                              <div class="card-body " style="margin-top:-0px"> 
+                              <div class="card-body " style="margin-top:-30px"> 
                                 <h5 class="card-category card-category-social text-rose text-center">
                                   <i class="fa fa-book" aria-hidden="true"></i> Book
                                 </h5>
