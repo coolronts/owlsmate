@@ -160,9 +160,9 @@
                               <p style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; height: 2em;">
                                 Course Name: {{$row_book->course_name }}</p>
                                 
-                               <p style="margin-top:-10px" > Course ID: {{$row_book->course_id}}</p>
+                               <p style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; height: 2em;" > Course ID: {{$row_book->course_id}}</p>
                                 
-                               <p style="margin-top:-10px"> ISBN: {{$row_book->isbn}} </p>
+                               <p style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; height: 2em;"> ISBN: {{$row_book->isbn}} </p>
                                
                               </div>
                               
