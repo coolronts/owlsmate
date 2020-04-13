@@ -163,8 +163,8 @@
                                 </h6>
                                <div style="margin-top:-10px">
                                 <p>
-                                  <div style="border-left: 6px solid green;
-                                  height: 2px;"> Course ID: <strong>{{$row_book->course_id}}</strong></div>
+                                   Course ID: <strong>{{$row_book->course_id}}</strong><div style="border-left: 6px solid green;
+                                   height: 2px;"></div>
                                   ISBN : <strong>{{$row_book->isbn}}</strong>
                                 </p>
                                
