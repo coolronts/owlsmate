@@ -158,8 +158,8 @@
                               <br>
                               <p class="card-description" style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; ">
                                <div class="row"> 
-                                 <label class="col-md-5">Course Name:</label>
-                                 <div class="col-md-7" > {{$row_book->course_name }}
+                                 <label class="col-md-4">Course Name:</label>
+                                 <div class="col-md-8" > {{$row_book->course_name }}
                                  </div>
                                </div>
                                 <br>
