@@ -157,8 +157,12 @@
                               </h5>
                               <br>
                               <div class="card-description" >
+                                <small style="font-size:12px;font-weight:lighter;margin-top:-10px"><u><b>Address</b></u></small>
+                              <h6 style="margin-top:-10px;" >
+                                 <strong>{{$row_house->course_name}}</strong>
+                              </h6>
                               <p style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; height: 4em;">
-                                <small> Course Name:</small> {{$row_book->course_name }}</p>
+                                <small style="text-align:center"> Course Name:</small> <br>{{$row_book->course_name }}</p>
                                 
                                <p style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; height: 2em;" > Course ID: {{$row_book->course_id}}</p>
                                 
