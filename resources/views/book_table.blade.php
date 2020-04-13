@@ -162,10 +162,18 @@
                                   <label for="bond">Course Name</label>
                                   {{$row_book->course_name }}
                                 </div>
-                                <br>
-                                Course ID: {{$row_book->course_id}}
-                                <br>
-                                ISBN: {{$row_book->isbn}}
+                                <label class="col-md-2">Course Name:</label> 
+                                <div class="form-group label-floating has-success col-md-4 ml-auto">
+                                  <label for="bond">Course ID</label>
+                                  {{$row_book->course_name }}
+                                </div>
+                                <label class="col-md-2">ISBN</label> 
+                                <div class="form-group label-floating has-success col-md-4 ml-auto">
+                                  <label for="bond">Course ID</label>
+                                  {{$row_book->isbn}}
+                                </div>
+                                
+                             
                                
                               </p>
                               
