@@ -164,7 +164,7 @@
                                <div style="margin-top:-10px">
                                 <p>
                                   <div style="border-left: 6px solid green;
-                                  height: 500px;"> Course ID: <strong>{{$row_book->course_id}}</strong></div>
+                                  height: 2px;"> Course ID: <strong>{{$row_book->course_id}}</strong></div>
                                   ISBN : <strong>{{$row_book->isbn}}</strong>
                                 </p>
                                
