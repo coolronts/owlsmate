@@ -157,8 +157,8 @@
                               </h5>
                               <br>
                               <div class="card-description" >
-                              <p style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; height: 2em;">
-                                Course Name: {{$row_book->course_name }}</p>
+                              <p style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; height: 4em;">
+                                <small> Course Name:</small> {{$row_book->course_name }}</p>
                                 
                                <p style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; height: 2em;" > Course ID: {{$row_book->course_id}}</p>
                                 
