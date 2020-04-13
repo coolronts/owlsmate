@@ -157,8 +157,8 @@
                               </h5>
                               <br>
                               <div class="card-description" style="margin-top:-50px" >
-                                <small style="font-size:12px;font-weight:lighter;margin-top:-50px"><u><b>Course Name</b></u></small>
-                                <h6 style="margin-top:-100px;" >
+                                <small style="font-size:12px;font-weight:lighter;margin-top:"><u><b>Course Name</b></u></small>
+                                <h6 style="margin-top:-50px;" >
                                   <strong>{{$row_book->course_name}}</strong>
                                 </h6>
                                 <small style="font-size:12px;font-weight:lighter;margin-top:-100px"><u><b>Course ID</b></u></small>
