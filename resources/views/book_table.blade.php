@@ -161,7 +161,7 @@
                                 <h6 style="margin-top:-10px;" >
                                   <strong>{{$row_book->course_name}}</strong>
                                 </h6>
-                               <div class="marign-top:-20px">
+                               <div style="marign-top:-20px">
                                 <small style="font-size:12px;font-weight:lighter;margin-top:-200px"><u><b>Course ID</b></u></small>
                                 <h6 style="margin-top:-10px" >
                                   <strong>{{$row_book->course_id}}</strong>
