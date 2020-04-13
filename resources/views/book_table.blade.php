@@ -155,7 +155,7 @@
                               <h5 class="text-center"  >
                                 <small style="font-size:12px">written by</small> <strong>{{$row_book->author}}</strong>
                               </h5>
-                              <br>
+                              
                               <div class="card-description" style="margin-top:-60px" >
                                 <small style="font-size:12px;font-weight:lighter;margin-top:"><u><b>Course Name</b></u></small>
                                 <h6 style="margin-top:-10px;" >
