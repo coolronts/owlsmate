@@ -145,7 +145,7 @@
                                 </a>
                               </div>
                             </div>
-                            <div class="card-body " style="margin-top:-20px"> 
+                            <div class="card-body " style="margin-top:-30px"> 
                               <h5 class="card-category card-category-social text-rose text-center">
                                 <i class="fa fa-book" aria-hidden="true"></i> Book
                               </h5>
@@ -153,16 +153,16 @@
                                 <a href="#pablo">{{$row_book->name}}</a>
                               </h4>
                               <h5 class="text-center"  >
-                                <small style="font-size:12px">written by</small> <strong>{{$row_book->author}}</strong>
+                                <small style="font-size:12px">by</small> <strong>{{$row_book->author}}</strong>
                               </h5>
                               <br>
                               <p class="card-description" style="margin-top:-20px; text-align: left;">
                                 Course Name: <strong>{{$row_book->course_name }}</strong>
-                                <br>
+                                
                                 Course ID: <strong>{{$row_book->course_id}}</strong>
-                                <br>
+                                
                                 ISBN: <strong>{{$row_book->isbn}}</strong>
-                                <br>
+                               
                               </p>
                               
                               <div class="footer" style="margin-top:-10px">
