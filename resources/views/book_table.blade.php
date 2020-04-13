@@ -156,8 +156,8 @@
                                 <small style="font-size:12px">written by</small> <strong>{{$row_book->author}}</strong>
                               </h5>
                               <br>
-                              <div class="card-description" >
-                                <small style="font-size:12px;font-weight:lighter;margin-top:-60px"><u><b>Course Name</b></u></small>
+                              <div class="card-description" style="margin-top:-60px" >
+                                <small style="font-size:12px;font-weight:lighter;"><u><b>Course Name</b></u></small>
                                 <h6 style="margin-top:-10px;" >
                                   <strong>{{$row_book->course_name}}</strong>
                                 </h6>
