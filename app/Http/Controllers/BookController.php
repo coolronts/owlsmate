@@ -79,7 +79,8 @@ class BookController extends Controller
             $rules = [
             'name' => 'required',
             'author' => 'required', 
-            'isbn' => 'required|numeric|size:13',
+            'isbn' => 'required|integer',
+            'isbn' => 'size:13',
             'price' => 'required|numeric',
             'description' => 'sometimes',
             'course_id' => 'required',
