@@ -156,14 +156,14 @@
                                 <small style="font-size:12px">by</small> <strong>{{$row_book->author}}</strong>
                               </h5>
                               
-                              <p class="card-description" style="margin-top:-20px; text-align: left;">
-                                Course Name: <strong>{{$row_book->course_name }}</strong>
+                              <div class="card-description" style="margin-top:-20px; text-align: left;">
+                                <p>Course Name: {{$row_book->course_name }}</p>
                                 
-                                Course ID: <strong>{{$row_book->course_id}}</strong>
+                               <p> Course ID: {{$row_book->course_id}}</p>
                                 
-                                ISBN: <strong>{{$row_book->isbn}}</strong>
+                               <p> ISBN: {{$row_book->isbn}}</p>
                                
-                              </p>
+                                </div>
                               
                               <div class="footer" style="margin-top:-10px">
                                 <div class="rating">
