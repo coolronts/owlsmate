@@ -156,7 +156,7 @@
                                 <small style="font-size:12px">written by</small> <strong>{{$row_book->author}}</strong>
                               </h5>
                               <br>
-                              <p class="card-description" style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; ">
+                              <div class="form-row form-group card-description" style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; ">
                                 <label class="col-md-2">Course Name:</label> 
                                 <div class="form-group label-floating has-success col-md-4 ml-auto">
                                   <label for="bond">Course Name</label>
@@ -172,10 +172,11 @@
                                   <label for="bond">Course ID</label>
                                   {{$row_book->isbn}}
                                 </div>
+                              <div>
                                 
                              
                                
-                              </p>
+                              
                               
                               <div class="footer" style="margin-top:-10px">
                                 <div class="rating">
