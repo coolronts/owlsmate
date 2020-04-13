@@ -164,7 +164,7 @@
                                <div style="margin-top:-10px">
                                 <p>
                                    Course ID: <strong>{{$row_book->course_id}}</strong>
-                                  <span style="display:block"> ISBN : <strong>{{$row_book->isbn}}</strong></span>
+                                  <span style="display:block; margin-top:-10px" > ISBN : <strong>{{$row_book->isbn}}</strong></span>
                                 </p>
                                
                                 
