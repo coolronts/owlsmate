@@ -164,7 +164,14 @@
                                <div style="margin-top:-10px">
                                 <p>
                                    Course ID: <strong>{{$row_book->course_id}}</strong>
-                                  <span style="display:block; margin-top:-10px" > Book Type : <strong>{{$row_book->b_type}}</strong></span>
+                                  <span style="display:block; margin-top:-10px" > Book Type : 
+                                    <strong>
+                                      @if($row_book->b_type==1) 
+                                        Text Book
+                                      @else
+                                        Supplemetary Book
+                                      @endif
+                                    </strong></span>
                                 </p>
                                
                                 
