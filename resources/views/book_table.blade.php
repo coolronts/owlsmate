@@ -162,8 +162,11 @@
                                   <strong>{{$row_book->course_name}}</strong>
                                 </h6>
                                <div style="margin-top:-10px">
-                                <p>Course ID: <strong>{{$row_book->course_id}}</strong></p>
-                                <p>ISBN : <strong>{{$row_book->isbn}}</strong></p>
+                                <p>
+                                  Course ID: <strong>{{$row_book->course_id}}</strong>
+                                  ISBN : <strong>{{$row_book->isbn}}</strong>
+                                </p>
+                               
                                 
                                </div>
                                 
