@@ -161,15 +161,22 @@
                                 <h6 style="margin-top:-10px;" >
                                   <strong>{{$row_book->course_name}}</strong>
                                 </h6>
-                               <div style="margin-top:-10px;">
-                                <p>
-                                  Course ID: <strong>{{$row_book->course_id}}</strong>
-                                  ISBN: <strong>{{$row_book->isbn}}</strong>
-                                </p>
+                               <div style="margin-top:-60px">
+                                <p>Course ID: <strong>{{$row_book->course_id}}</strong></p>
+                                <p>Course ID: <strong>{{$row_book->course_id}}</strong></p>
+                                <small style="font-size:12px;font-weight:lighter;margin-top:-200px"><u><b>Course ID</b></u></small>
+                                <h6 style="margin-top:-10px" >
+                                  <strong style="font">{{$row_book->course_id}}</strong>
+                                </h6>
+                               </div>
+                                <small style="font-size:12px;font-weight:lighter;margin-top:-100px"><u><b>ISBN</b></u></small>
+                                <h6 style="margin-top:-10px;" >
+                                  <strong>{{$row_book->isbn}}</strong>
+                              </h6>
                               
                                 
+                               
                               </div>
-                              
                               
                               <div class="footer" style="margin-top:-10px">
                                 <div class="rating">
