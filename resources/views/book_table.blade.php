@@ -157,15 +157,15 @@
                               </h5>
                               <br>
                               <div class="card-description" style="margin-top:-50px" >
-                                <small style="font-size:12px;font-weight:lighter;"><u><b>Course Name</b></u></small>
+                                <small style="font-size:12px;font-weight:lighter;margin-top:-50px"><u><b>Course Name</b></u></small>
                                 <h6 style="margin-top:;" >
                                   <strong>{{$row_book->course_name}}</strong>
                                 </h6>
-                                <small style="font-size:12px;font-weight:lighter;margin-top:-60px"><u><b>Course ID</b></u></small>
-                                <h6 style="margin-top:-20px;" >
+                                <small style="font-size:12px;font-weight:lighter;margin-top:-100px"><u><b>Course ID</b></u></small>
+                                <h6 style="margin-top:-30px" >
                                   <strong>{{$row_book->course_id}}</strong>
                                 </h6>
-                                <small style="font-size:12px;font-weight:lighter;margin-top:-60px"><u><b>ISBN</b></u></small>
+                                <small style="font-size:12px;font-weight:lighter;margin-top:-100px"><u><b>ISBN</b></u></small>
                                 <h6 style="margin-top:-20px;" >
                                   <strong>{{$row_book->isbn}}</strong>
                               </h6>
