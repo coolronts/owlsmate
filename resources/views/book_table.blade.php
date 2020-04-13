@@ -157,11 +157,11 @@
                               </h5>
                               <br>
                               <p class="card-description" style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; ">
-                               <div class="row"> 
-                                 <label class="col-md-4">Course Name:</label>
-                                 <div class="col-md-8" > {{$row_book->course_name }}
-                                 </div>
-                               </div>
+                                <label class="col-md-2">Course Name:</label> 
+                                <div class="form-group label-floating has-success col-md-4 ml-auto">
+                                  <label for="bond">Course Name</label>
+                                  {{$row_book->course_name }}
+                                </div>
                                 <br>
                                 Course ID: {{$row_book->course_id}}
                                 <br>
