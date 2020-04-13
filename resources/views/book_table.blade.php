@@ -156,27 +156,14 @@
                                 <small style="font-size:12px">written by</small> <strong>{{$row_book->author}}</strong>
                               </h5>
                               <br>
-                              <div class="form-row form-group card-description" style="margin-top:-20px; text-align: left;font-weight:lighter; line-height: 2em;width: 300px; overflow: hidden;position: relative; ">
-                                <label class="col-md-2">Course Name:</label> 
-                                <div class="form-group label-floating has-success col-md-4 ml-auto">
-                                  <label for="bond">Course Name</label>
-                                  {{$row_book->course_name }}
-                                </div>
-                                <label class="col-md-2">Course Name:</label> 
-                                <div class="form-group label-floating has-success col-md-4 ml-auto">
-                                  <label for="bond">Course ID</label>
-                                  {{$row_book->course_name }}
-                                </div>
-                                <label class="col-md-2">ISBN</label> 
-                                <div class="form-group label-floating has-success col-md-4 ml-auto">
-                                  <label for="bond">Course ID</label>
-                                  {{$row_book->isbn}}
-                                </div>
-                              <div>
+                              <p class="card-description" style="margin-top:-20px; text-align: left;">
+                                Course Name: {{$row_book->course_name }}
                                 
-                             
+                                Course ID: {{$row_book->course_id}}
+                                
+                                ISBN: {{$row_book->isbn}}
                                
-                              
+                              </p>
                               
                               <div class="footer" style="margin-top:-10px">
                                 <div class="rating">
