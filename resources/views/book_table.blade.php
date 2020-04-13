@@ -333,10 +333,10 @@
                                 <h3 class="card-category card-category-social text-warning text-center"><i class="fa fa-graduation-cap"></i>Tutor</h3>
                                 <h5 class="card-description" style="text-align:left">
                                   Course Name: <strong>{{$row->course_name}}</strong>
-                                  Coursesad ID: <strong>{{$row->course_id}}</strong>
-                                  
+                                  Course ID: <strong>{{$row->course_id}}</strong>
                                 </h5>
                               </div>
+                              <hr>
                               <div class="footer" style="margin-top:-10px">
                                 <div class="rating">
                                   <img src="https://img.icons8.com/android/24/000000/coins.png"/> <h6 style="display: inline;  margin-left: 10px;">  Hourly Rate: </h6> <h5 style="display: inline; margin-left: 10px;">{{ $row->price}} <small>NOK/HR </small></h5>

@@ -136,7 +136,8 @@ class BookController extends Controller
             'image_4' =>'sometimes|image',
             'image_5' =>'sometimes|image',
             'image_6' =>'sometimes|image',
-            'year' => 'required|numeric|size:4',
+            'year' => 'required|integer',
+            'year' => 'size:4',
             ];
 
             $attributes = [
