@@ -295,7 +295,7 @@
                     <label class="radio-inline"><input type="radio" name="gender" value="Female"> <span class="fa fa-female" style="font-size:20px"></span>Female</label>
                   @endif
                 </div>
-                <div class="col-sm-2"  style="margin-top:20px">
+                <div class="col-sm-4"  style="margin-top:20px">
                   @if ($house->gender == 'Any Gender')
                     <label class="radio-inline"><input type="radio" name="gender" value="Any Gender" checked> <i class="fa fa-users" style="font-size:20px"></i> Any Gender</label>
                   @else
@@ -641,7 +641,7 @@
                   <label class="radio-inline"><input type="radio" name="gender" value="Female"> <span class="fa fa-female" style="font-size:20px"></span>Female</label>
                 @endif
               </div>
-              <div class="col-sm-2"  style="margin-top:20px">
+              <div class="col-sm-4"  style="margin-top:20px">
                 @if ($house->gender == 'Any Gender')
                   <label class="radio-inline"><input type="radio" name="gender" value="Any Gender" checked> <i class="fa fa-users" style="font-size:20px"></i> Any Gender</label>
                 @else
