@@ -432,7 +432,7 @@
                                 </a>
                               </div>
                             </div>
-                            <div class="card-body" style="margin-top:-40px" > 
+                            <div class="card-body" style="margin-top:-20px" > 
                               <h5 class="card-category card-category-social text-danger">
                                 <span class="material-icons">king_bed</span> FlatMate
                               </h5>
