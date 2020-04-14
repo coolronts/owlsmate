@@ -642,10 +642,10 @@
                 @endif
               </div>
               <div class="col-sm-2"  style="margin-top:20px">
-                @if ($house->gender == 'Any')
-                  <label class="radio-inline"><input type="radio" name="gender" value="Any" checked> <i class="fa fa-users" style="font-size:20px"></i> Any</label>
+                @if ($house->gender == 'Any Gender')
+                  <label class="radio-inline"><input type="radio" name="gender" value="Any Gender" checked> <i class="fa fa-users" style="font-size:20px"></i> Any Gender</label>
                 @else
-                  <label class="radio-inline"><input type="radio" name="gender" value="Any"> <i class="fa fa-users" style="font-size:20px"></i> Any</label>
+                  <label class="radio-inline"><input type="radio" name="gender" value="Any Gender"> <i class="fa fa-users" style="font-size:20px"></i> Any Gender</label>
                 @endif
               </div>
             </div>
