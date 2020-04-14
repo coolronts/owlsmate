@@ -533,11 +533,11 @@
                             @endif
                             <div class="content" >
                               <div class="main">
-                                <div class="text-center" style="font-family: 'Roboto Slab', serif; line-height: 25px; font-weight: 700; color: #3c4858; font-size: 18px; margin-top: -5px">
+                                <div class="text-center" style="font-family: 'Roboto Slab', serif; line-height: 25px; font-weight: 700; color: #3c4858; font-size: 18px; margin-top: -10px">
                                   {{ Auth::user()->first_name }} {{ Auth::user()->last_name }}
                                 </div>
                                 <br>
-                                <p class="text-center" style="font-family: 'Roboto', sans-serif; font-size:13px; line-height: 19px; color:#999999;; margin-top: -10px;text-transform: uppercase;"> 
+                                <p class="text-center" style="font-family: 'Roboto', sans-serif; font-size:13px; line-height: 19px; color:#999999; margin-top: -20px;text-transform: uppercase;"> 
                                   student at <strong>{{ Auth::user()->university }} </strong>
                                 </p>
                                 <p class="text-center" style="font-family: 'Roboto', sans-serif; font-size:13px; line-height: 19px; color:#999999; text-transform: uppercase;">
