@@ -432,11 +432,11 @@
                                 </a>
                               </div>
                             </div>
-                            <div class="card-body" style="margin-top:-30px" > 
+                            <div class="card-body" style="margin-top:-60px" > 
                               <h5 class="card-category card-category-social text-danger">
                                 <span class="material-icons">king_bed</span> FlatMate
                               </h5>
-                              <h4 class="card-title" style="margin-top:-30px">
+                              <h4 class="card-title"  style="margin-top:-5px;">
                                 <a href="#pablo">{{$row_house->title}}</a>
                               </h4>
                               <small style="font-size:12px;font-weight:lighter;margin-top:-10px"><u><b>Address</b></u></small>
