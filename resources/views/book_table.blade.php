@@ -446,7 +446,7 @@
                               <h6 style="margin-top:-10px;" >
                                 <strong>{{$row_house->city}}</strong> <strong> , {{$row_house->postcode}}</strong>
                              </h6>
-                              <p class="card-description" style="font-weight:lighter;margin-top:-30px; margin-left:-30px">
+                              <p class="card-description" style="font-weight:lighter;margin-top:-10px; margin-left:-30px">
                                 <i class="material-icons">meeting_room</i>
                                     <strong style="font-size:12px;font-weight:lighter">
                                       @if($row_house->room_type == 1)
