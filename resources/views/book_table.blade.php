@@ -411,7 +411,7 @@
                       <div class="rotating-card-container" >
                         <div class="card card-rotate" style="box-shadow: 0 40px 60px 0 rgba(0, 0, 0, 0.2), 0 6px 80px 0 rgba(0, 0, 0, 0.19);">
                           <div class="front">
-                           `<div class="card card-blog">
+                           `<div class="card card-blog" style="margin-top:-50px">
                               <div class="card-header card-header-image" style="margin-top:-60px;box-shadow: 0 40px 60px 0 rgba(0, 0, 0, 0.2), 0 6px 80px 0 rgba(0, 0, 0, 0.19);">
                                 <a href="#pablo">
                                   @if ($row_house->image_1 != null )
@@ -436,7 +436,7 @@
                               <h5 class="card-category card-category-social text-danger">
                                 <span class="material-icons">king_bed</span> FlatMate
                               </h5>
-                              <h4 class="card-title" style="margin-top:-10px">
+                              <h4 class="card-title" style="margin-top:-30px">
                                 <a href="#pablo">{{$row_house->title}}</a>
                               </h4>
                               <small style="font-size:12px;font-weight:lighter;margin-top:-10px"><u><b>Address</b></u></small>
@@ -446,7 +446,7 @@
                               <h6 style="margin-top:-10px;" >
                                 <strong>{{$row_house->city}}</strong> <strong> , {{$row_house->postcode}}</strong>
                              </h6>
-                              <p class="card-description" style="font-weight:lighter; margin-left:-30px">
+                              <p class="card-description" style="font-weight:lighter;margin-top:-30px; margin-left:-30px">
                                 <i class="material-icons">meeting_room</i>
                                     <strong style="font-size:12px;font-weight:lighter">
                                       @if($row_house->room_type == 1)
