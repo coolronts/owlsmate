@@ -537,7 +537,7 @@
                                   {{ Auth::user()->first_name }} {{ Auth::user()->last_name }}
                                 </div>
                                
-                                <p class="text-center" style="font-family: 'Roboto', sans-serif; font-size:13px; line-height: 19px; color:#999999; margin-top: -20px;text-transform: uppercase;"> 
+                                <p class="text-center" style="font-family: 'Roboto', sans-serif; font-size:13px; line-height: 19px; color:#999999; margin-top: -50px;text-transform: uppercase;"> 
                                   student at <strong>{{ Auth::user()->university }} </strong>
                                 </p>
                                 <p class="text-center" style="font-family: 'Roboto', sans-serif; font-size:13px; line-height: 19px; color:#999999; text-transform: uppercase;">
