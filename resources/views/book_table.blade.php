@@ -544,7 +544,7 @@
                                   STUDYING <strong>{{ Auth::user()->program }} </strong> IN <strong>{{ Auth::user()->year }}</strong> 
                                 </p> 
                                 <hr>
-                                <h3 class="card-category card-category-social text-danger text-center"><span class="material-icons">emoji_people</span>Buddy Up</h3>
+                                <h3 class="card-category card-category-social text-danger text-center" style="margin-top:-20px"><span class="material-icons">emoji_people</span>Buddy Up</h3>
                                 <p class="card-description" style="font-weight:lighter">
                                   <i class="material-icons">people_alt</i> <strong style="margin-top:-200px;font-size:12px;font-weight:lighter" > {{$row_house->gender}}</strong>
                                       <br>
