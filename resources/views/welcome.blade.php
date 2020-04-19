@@ -19,7 +19,18 @@
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-  
+  <script type="text/JavaScript">
+    //Script courtesy of BoogieJack.com
+    var message="NoRightClicking";
+    function defeatIE() {if (document.all) {(message);return false;}}
+    function defeatNS(e) {if 
+    (document.layers||(document.getElementById&&!document.all)) {
+    if (e.which==2||e.which==3) {(message);return false;}}}
+    if (document.layers) 
+    {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
+    else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
+    document.oncontextmenu=new Function("return false")
+    </script>
   <script type="text/javascript">
    
     $( document ).ready(function() {
@@ -755,7 +766,7 @@
                                       {{ $house_user->first_name }} {{ $house_user->last_name }}
                                     </div>
                                     <br>
-                                    <p class="text-center" style="font-family: 'Roboto', sans-serif; font-size:13px; line-height: 19px; color:#999999;; margin-top: -10px;text-transform: uppercase;"> 
+                                    <p class="text-center" style="font-family: 'Roboto', sans-serif; font-size:13px; line-height: 19px; color:#999999; margin-top: -10px;text-transform: uppercase;"> 
                                       student at <strong>{{ $house_user->university }} </strong>
                                     </p>
                                     <p class="text-center" style="font-family: 'Roboto', sans-serif; font-size:13px; line-height: 19px; color:#999999; text-transform: uppercase;">
